@@ -6,7 +6,7 @@ from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 
-src_dir = 'C:/Users/Huiluo/Desktop/HKU-microbiology/pneumococcus/genomes/serotype3_ref_45genomes'
+src_dir = '/home/dir/'
 
 files = os.listdir(src_dir)
 print(files)
