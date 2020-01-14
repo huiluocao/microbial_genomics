@@ -1,2 +1,13 @@
 # microbial_genomics
 all the programs used in microbial genomics study
+
+
+https://github.com/Oshlack/STRetch
+
+STRetch
+
+Method for detecting short tandem repeat expansions from short-read sequencing data.
+
+STRetch requires paired end reads to work. It is primarily intended for use on whole genome sequencing data, but can also be run on exome or other targeted sequencing data, although size estimates should be interpreted with caution.
+
+Please see the STRetch user guide for installation and usage instructions.
