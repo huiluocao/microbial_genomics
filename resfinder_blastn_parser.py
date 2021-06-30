@@ -1,7 +1,7 @@
 import os, collections
 import pandas as pd
 
-iall_arg_df=pd.DataFrame(columns=['arg'])
+all_arg_df=pd.DataFrame(columns=['arg'])
 print(all_arg_df)
 for file in os.listdir('./'):
     if file.endswith('fna_blastn.txt'):
