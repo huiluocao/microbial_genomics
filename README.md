@@ -16,3 +16,7 @@ Please see the STRetch user guide for installation and usage instructions.
 Pangenome:
 
 https://gtonkinhill.github.io/panaroo/#/
+
+
+useful scripts:
+https://github.com/ctSkennerton/scriptShed
