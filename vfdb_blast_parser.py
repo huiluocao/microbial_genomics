@@ -1,3 +1,7 @@
+import pandas as pd
+import collections
+import os
+
 gene_df_all = pd.DataFrame(columns=['gene'])
 for file in os.listdir('./'):
     if file.endswith('blastp_vfdb.txt'):
