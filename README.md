@@ -20,3 +20,6 @@ https://gtonkinhill.github.io/panaroo/#/
 
 useful scripts:
 https://github.com/ctSkennerton/scriptShed
+
+biosample processing
+https://github.com/stajichlab/biosample_metadata
