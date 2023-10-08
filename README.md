@@ -26,5 +26,6 @@ https://github.com/stajichlab/biosample_metadata
 
 
 KEGG annotations:
-https://github.com/pseudonymcp/keggmapping
+https://github.com/pseudonymcp/keggmapping   
 ggkegg: https://github.com/noriakis/ggkegg
+keggdecoder: https://github.com/bjtully/BioData/tree/master/KEGGDecoder
