@@ -23,3 +23,8 @@ https://github.com/ctSkennerton/scriptShed
 
 biosample processing
 https://github.com/stajichlab/biosample_metadata
+
+
+KEGG annotations:
+https://github.com/pseudonymcp/keggmapping
+ggkegg: https://github.com/noriakis/ggkegg
