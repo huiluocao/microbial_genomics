@@ -29,3 +29,7 @@ KEGG annotations:
 https://github.com/pseudonymcp/keggmapping   
 ggkegg: https://github.com/noriakis/ggkegg
 keggdecoder: https://github.com/bjtully/BioData/tree/master/KEGGDecoder
+
+###
+## referring ncbi sequence accesstion to retrieve taxonomic information
+https://cran.r-project.org/web/packages/taxonomizr/readme/README.html
