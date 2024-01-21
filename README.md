@@ -1,6 +1,8 @@
 # microbial_genomics
 all the programs used in microbial genomics study
 
+some tools/codes to plot can be found here:
+https://github.com/yongkangning/HiOmics
 
 https://github.com/Oshlack/STRetch
 
