@@ -19,6 +19,22 @@ do
 done
 
 #### phigaro
+#!/bin/bash --login
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=32
+#SBATCH --mail-user=hcao@hku.hk
+#SBATCH --mail-type=ALL
+#SBATCH -p batch
+#SBATCH --time=01-12:00:00
+
+
+module purge
+for file in *fna
+do
+    a=${file%.fna}
+    phigaro -f $file -p --not-open -e tsv gff bed stdout -o ${a}_phigaro
+    #python ../ISfinder_1b.py $a
+done
 
 #### ICEfinder
 1) split gbks to individual records:
