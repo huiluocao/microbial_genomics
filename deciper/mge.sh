@@ -2,6 +2,10 @@
 conda activate genomad
 genomad end-to-end --cleanup --splits 8 PA_ZSP7002.fna PA_ZSP7002_genomad /ibex/project/c2170/db/genomad_db/ &
 
+## plasflow
+conda activate plasflow
+PlasFlow.py --input tet_contig_blast_cleaned.fna --output tet_contig_blast_cleaned_plasflow
+
 
 #### prophage
 ## PHASTEST API
