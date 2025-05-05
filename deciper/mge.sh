@@ -40,6 +40,12 @@ do
     #python ../ISfinder_1b.py $a
 done
 
+#### virsorter
+module purge;
+module load virsorter2/2.2.4 
+virsorter run -d $DBDIR -w ../virsorter/Q1F2_virsorter -i Q1F2.fna --min-length 1500 -j 4 all
+
+
 #### ICEfinder
 1) split gbks to individual records:
 from Bio import SeqIO
@@ -56,5 +62,16 @@ module load emboss/6.6.0/gnu-6.4.0
 perl ICEfinder_local.pl bcf_gbk_p6.list
 
 
-#### ISfinder
+#### integron
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=16
+#SBATCH --mail-user=hcao@hku.hk
+#SBATCH --mail-type=ALL
+#SBATCH -p batch
+#SBATCH --time=00-12:00:00
+
+module purge
+module load integron_finder/2.0.2
+integron_finder Q1F2.fna --local-max --outdir ../integron/Q1F2_integron --promoter-attI --mute --pdf --gbk
 
