@@ -1,4 +1,9 @@
 #### plasmid & virus
+# virsorter
+## https://github.com/jiarong/VirSorter2
+virsorter run -w test.out -i test.fa --min-length 1500 -j 4 all
+
+
 conda activate genomad
 genomad end-to-end --cleanup --splits 8 PA_ZSP7002.fna PA_ZSP7002_genomad /ibex/project/c2170/db/genomad_db/ &
 
