@@ -68,12 +68,16 @@ less ena_sample_fields.tsv
 Then remove unsupported fields from the command.
 
 5. Download assemblies
-curl -L -G "$API" \
+ASSEMBLY_FIELDS="accession,sample_accession,secondary_sample_accession,study_accession,description,tax_id,scientific_name,assembly_name,assembly_level"
+
+curl -L -G "https://www.ebi.ac.uk/ena/portal/api/search" \
   --data-urlencode "result=assembly" \
-  --data-urlencode "query=${TAX_QUERY}" \
+  --data-urlencode "query=tax_tree(1496)" \
+  --data-urlencode "fields=${ASSEMBLY_FIELDS}" \
   --data-urlencode "format=tsv" \
   --data-urlencode "limit=0" \
   -o ena_cdiff_assembly_${DATE}.tsv
+
 
 I recommend first downloading assemblies without specifying fields, because ENA assembly fields vary more often.
 
