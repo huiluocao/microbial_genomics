@@ -111,3 +111,10 @@ curl -L -G "$API" \
   --data-urlencode "format=tsv" \
   --data-urlencode "limit=0" \
   -o ena_cdiff_read_study_${DATE}.tsv
+
+
+7. python compact_ena_by_biosample_v4.py \
+--runs ena_cdiff_read_run_${DATE}.tsv \
+--assemblies ena_cdiff_assembly_${DATE}.tsv \
+--samples ena_cdiff_sample_${DATE}.tsv \
+--outprefix ena_cdiff_${DATE}_compact_biosample
