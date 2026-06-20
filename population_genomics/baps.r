@@ -1,4 +1,7 @@
 #https://github.com/gtonkinhill/rhierbaps
+#https://github.com/ocbe-uio/rBAPS
+#https://github.com/gtonkinhill/fastbaps
+
 install.packages("rhierbaps")
 library(rhierbaps)
 library(ggtree)
