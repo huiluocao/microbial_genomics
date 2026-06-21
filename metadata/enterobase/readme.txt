@@ -11,3 +11,7 @@ Your barcodes.txt should look like:
 CLO_AA0007AA_AS
 CLO_AA0487AA_AS
 CLO_AA1234AA_AS
+
+
+some other resources:
+https://github.com/C-Connor/EnterobaseGenomeAssemblyDownload
